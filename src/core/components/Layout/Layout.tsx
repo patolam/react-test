@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import RouterOutlet from '../RouterOutlet/RouterOutlet';
 import React, { useEffect, useState } from 'react';
-import useAppRoutes from '../../../App.Routing';
+import useAppRoutes from '../../../App.routing';
 
 import './Layout.scss';
 

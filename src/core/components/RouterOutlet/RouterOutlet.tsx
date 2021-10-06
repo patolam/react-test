@@ -1,6 +1,6 @@
 import { Redirect, Route, useRouteMatch } from 'react-router-dom';
 import React from 'react';
-import { RouteModel } from '../../../shared/models/Route.Model';
+import { RouteModel } from '../../../shared/models/route.model';
 
 const RouterOutlet: React.FC<{ routes: RouteModel[] }> = ({
   routes,

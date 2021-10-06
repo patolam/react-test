@@ -1,4 +1,4 @@
-import { RouteModel } from '../../shared/models/Route.Model';
+import { RouteModel } from '../../shared/models/route.model';
 import DashboardDetailsOne from './pages/DashboardDetailsOne/DashboardDetailsOne';
 import DashboardDetailsTwo from './pages/DashboardDetailsTwo/DashboardDetailsTwo';
 

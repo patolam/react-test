@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { RouteModel } from './shared/models/Route.Model';
+import { RouteModel } from './shared/models/route.model';
 
 const useAppRoutes = (): RouteModel[] => ([
   {
@@ -7,7 +7,7 @@ const useAppRoutes = (): RouteModel[] => ([
     config: {
       path: '/dashboard',
       exact: false,
-      component: lazy(() => import('./modules/Dashboard/Dashboard.Module')),
+      component: lazy(() => import('./modules/Dashboard/Dashboard.module')),
     },
   },
   {
@@ -15,7 +15,7 @@ const useAppRoutes = (): RouteModel[] => ([
     config: {
       path: '/other',
       exact: false,
-      component: lazy(() => import('./modules/Other/Other.Module')),
+      component: lazy(() => import('./modules/Other/Other.module')),
     },
   },
 ]);

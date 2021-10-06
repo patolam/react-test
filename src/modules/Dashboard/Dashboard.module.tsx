@@ -1,5 +1,5 @@
 import React from 'react';
-import useDashboardRoutes from './Dashboard.Routing';
+import useDashboardRoutes from './Dashboard.routing';
 import RouterOutlet from '../../core/components/RouterOutlet/RouterOutlet';
 import { useRouteMatch } from 'react-router-dom';
 
